@@ -1,0 +1,9 @@
+[package]
+name = "milk-example"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0"
+timber = { path = "../../../timber" }
+tokio = { version = "1.20.1", features = ["full"] }
